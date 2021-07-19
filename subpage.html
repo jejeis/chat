@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>채팅</title>
+    <link rel="stylesheet" href="css/sub_style.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/sub_custom.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <div id="chat">
+            <!-- 채팅 칠 영역 -->
+        </div>
+        <div class="input">
+            <input type="text" id="test" placeholder="메시지를 입력해주세요">
+            <button onclick="send()" id="send">전송</button>
+        </div>
+    </div>
+</body>
+
+</html>
